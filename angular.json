@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mariana"
+    }
+  },
+  "defaultProject": "mariana",
+  "cli": {
+    "analytics": false
+  }
 }
