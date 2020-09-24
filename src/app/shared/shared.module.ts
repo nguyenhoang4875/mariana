@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
-
+import { MediaStreamService } from './mediastream.service';
+import { WebRTCSharedModule } from '../webrtc-chat/shared';
 
 @NgModule({
-  declarations: [],
+  providers: [
+    MediaStreamService
+  ],
   imports: [
-    CommonModule
+    WebRTCSharedModule
   ]
 })
 export class SharedModule { }
